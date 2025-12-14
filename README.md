@@ -2,30 +2,30 @@
 <h3 align="center">Data Analyst | Power BI & SQL Enthusiast | VNIT Nagpur</h3>
 
 - 🎯 Turning raw data into dashboards, insights, and business decisions  
-- 🎓 B.Tech in Chemical Engineering, Visvesvaraya National Institute of Technology (VNIT) Nagpur (2025) [file:22]  
-- 🧠 Interested in revenue analytics, customer behaviour, and digital transformation use-cases [file:22]  
+- 🎓 B.Tech in Chemical Engineering, Visvesvaraya National Institute of Technology (VNIT) Nagpur (2025) 
+- 🧠 Interested in revenue analytics, customer behaviour, and digital transformation use-cases
 
 ---
 
 ### 🛠️ Tech Stack
 
-- **Data Analysis & BI:** Data Cleaning, EDA, ETL, KPI Reporting, A/B Testing, Business Intelligence, Data Modelling, Dashboard Optimization [file:22]  
-- **Programming & Querying:** Python (Pandas, NumPy), SQL (PostgreSQL, MySQL, Cloud SQL) [file:22]  
-- **Visualization & Tools:** Power BI (DAX, Power Query, data modelling), Excel (advanced), basic R & Tableau exposure via coursework [file:22]  
-- **Soft Skills:** Communication, problem-solving, critical thinking, stakeholder reporting, attention to detail [file:22]  
+- **Data Analysis & BI:** Data Cleaning, EDA, ETL, KPI Reporting, A/B Testing, Business Intelligence, Data Modelling, Dashboard Optimization
+- **Programming & Querying:** Python (Pandas, NumPy), SQL (PostgreSQL, MySQL, Cloud SQL)
+- **Visualization & Tools:** Power BI (DAX, Power Query, data modelling), Excel (advanced), basic R & Tableau exposure via coursework
+- **Soft Skills:** Communication, problem-solving, critical thinking, stakeholder reporting, attention to detail 
 
 ---
 
 ### 📊 Featured Analytics Projects
 
 #### 1️⃣ Customer Shopping Behaviour Analysis – Python, SQL, Power BI
-End-to-end analysis of 3,900+ retail customers to uncover revenue drivers, loyalty patterns, and discount-driven behaviour using Python (pandas), PostgreSQL (CTEs, window functions), and interactive Power BI dashboards. [file:22]  
+End-to-end analysis of 3,900+ retail customers to uncover revenue drivers, loyalty patterns, and discount-driven behaviour using Python (pandas), PostgreSQL (CTEs, window functions), and interactive Power BI dashboards. 
 
 #### 2️⃣ AtliQ Hospitality Revenue Dashboard – Power BI
-Interactive Power BI dashboard analysing ₹1.69B+ revenue across 30+ hotels, with RevPAR, ADR, occupancy, and realization KPIs, 26+ DAX measures, and a star schema for drill-down analysis. [file:22]  
+Interactive Power BI dashboard analysing ₹1.69B+ revenue across 30+ hotels, with RevPAR, ADR, occupancy, and realization KPIs, 26+ DAX measures, and a star schema for drill-down analysis.
 
 #### 3️⃣ Bharat Herald Media Survival Analysis – SQL, Power BI
-Evaluated print vs digital performance for a legacy media company using SQL and Power BI, analysing 2019–2024 data (print circulation, ad revenue, digital engagement) to recommend a phased digital relaunch strategy. [file:22]  
+Evaluated print vs digital performance for a legacy media company using SQL and Power BI, analysing 2019–2024 data (print circulation, ad revenue, digital engagement) to recommend a phased digital relaunch strategy. 
 
 _Add links like_ 👉 `[View Project](https://github.com/your-repo-link)` _under each heading once the repos are public._  
 
@@ -33,15 +33,15 @@ _Add links like_ 👉 `[View Project](https://github.com/your-repo-link)` _under
 
 ### 📜 Certifications
 
-- Google Data Analytics Professional Certificate – Excel, SQL, R, Tableau, data visualization, capstone project [file:22]  
-- Codebasics Data Analytics Master Program – Excel, SQL, Power BI, Python, data engineering, AI automation [file:22]  
-- Project Management Certification – Microsoft & LinkedIn Learning [file:22]  
-
+- Google Data Analytics Professional Certificate – Excel, SQL, R, Tableau, data visualization, capstone project  
+- Codebasics Data Analytics Master Program – Excel, SQL, Power BI, Python, data engineering, AI automation 
+- Project Management Certification – Microsoft & LinkedIn Learning
+-  
 ---
 
 ### ⚽ Beyond Data
 
-- Led cultural and sports teams, coordinating 1,000+ attendee events and captaining a 22-member football team to a higher win rate, strengthening leadership and teamwork. [file:22]  
+- Led cultural and sports teams, coordinating 1,000+ attendee events and captaining a 22-member football team to a higher win rate, strengthening leadership and teamwork.  
 
 ---
 
