@@ -23,55 +23,69 @@
 
 ### 📊 Featured Analytics Projects
 
-#### 1️⃣ E-Commerce Transaction & Business Analytics – PostgreSQL, Python, Power BI
+#### 1️⃣ Retail Replenishment Lab – Python, SQL, Power BI
 
-End-to-end analytics project built on a 1M-record, 10-table e-commerce dataset covering customers, orders, products, payments, shipping, marketing, user behaviour, reviews, and risk management.
+End-to-end forecasting and inventory decision case study built on historical M5 retail sales data.
 
-* Engineered ETL and data-quality workflows, removing 25% corrupt primary keys to establish an 800K verified-order analytical base.
-* Delivered 80+ SQL analyses across 9 business domains using CTEs and window functions.
-* Analysed $302M in revenue and identified $7.4M in potentially recoverable revenue from 18,513 failed-payment coupon orders.
-* Built a 12-module pandas validation framework to independently reconcile SQL outputs.
-* Resolved PostgreSQL NTILE vs pandas qcut segmentation differences using deterministic ranking logic.
+* Evaluated forecasts chronologically across multiple validation and test windows to avoid future-data leakage.
+* Improved test WAPE to 44.3%, compared with 48.0% for a recent-mean baseline and 46.9% for a seasonal-mean baseline.
+* Connected forecast performance to simulated fill rate, inventory value, ordering cost, and lost-sales trade-offs.
+* Built a reproducible Python and SQL pipeline, automated business-rule tests, and an editable three-page Power BI report.
+* Documented model limitations, data lineage, methodology, validation evidence, and interview-ready business conclusions.
+
+👉 **[View Project](https://github.com/SiddhantK543/Retail-Replenishment-Lab)**
+
+---
+
+#### 2️⃣ E-Commerce Analytics – Python, SQL, Power BI
+
+Interactive three-page Power BI report supported by Python data preparation, SQL analysis, DAX, data-quality checks, and documented validation.
+
+* Modelled 991,930 synthetic orders across customers, products, payments, shipping, marketing, and transaction-risk domains.
+* Built reusable SQL views and Python modules for cleaning, quality checks, customer analysis, and BI-ready exports.
+* Implemented an editable PBIP semantic model with documented DAX measures and dashboard methodology.
+* Reconciled live report totals for the complete dataset, 2025, and Electronics selections.
+* Clearly separated gross order value from recognized revenue and risk signals from confirmed fraud.
 
 👉 **[View Project](https://github.com/SiddhantK543/E-Commerce-Analytics)**
 
 ---
 
-#### 2️⃣ Revenue Insights: Hospitality Domain – Power BI, DAX, Power Query
+#### 3️⃣ SQL Data Warehouse & Sales Analytics – SQL Server, T-SQL
 
-Business intelligence dashboard focused on hospitality revenue and operational performance across multiple properties.
+Reproducible learning warehouse based on the Data With Baraa SQL warehouse tutorial, with clearly documented local engineering extensions.
 
-* Designed a 3-page Power BI dashboard across 4 cities and 7 properties.
-* Developed 20 DAX measures covering ADR, RevPAR, Occupancy, Realization, and room utilization.
-* Applied cancellation, refund, and no-show rules to distinguish realized revenue from reported revenue.
-* Created hierarchical drilldowns and tooltip analysis for property-level investigation.
-* Identified the weakest-performing asset at 44.3% average occupancy through WoW root-cause analysis.
+* Implemented Bronze, Silver, and Gold layers with repeatable analytical exports.
+* Added transactional loading, safe database initialization, strict row-count reconciliation, and automated assertions.
+* Documented data lineage, naming conventions, dataset checksums, source limitations, and tutorial attribution.
 
----
-
-#### 3️⃣ Customer Churn Analysis & Prediction – SQL, Python, scikit-learn, Power BI
-
-End-to-end customer analytics project combining SQL ETL, exploratory analysis, machine learning, and Power BI reporting.
-
-* Performed SQL ETL across 5,000+ customer records integrating demographic, geographic, account, and usage attributes.
-* Built and validated a Random Forest model achieving 82% accuracy for churn-risk prediction.
-* Flagged the top 25% highest-risk customers for retention targeting.
-* Developed 6+ churn KPIs covering churn rate, churn volume, tenure-based exits, and new joiners.
-* Combined predictive modelling with business-focused retention analysis.
+👉 **[View Project](https://github.com/SiddhantK543/SQL-Data-Warehouse)**
 
 ---
 
-#### 4️⃣ Deep Research Agent – Python, LangGraph, LangChain, Ollama, Chainlit
+#### 4️⃣ Hospitality Revenue Insights – Power BI, DAX, Power Query
 
-Self-hosted AI research system designed to automate web research, retrieval, reasoning, synthesis, and report generation.
+Business intelligence report exploring revenue, occupancy, ADR, RevPAR, booking channels, room classes, and hotel performance.
 
-* Deployed a local LLM-powered research system using Ollama and Qwen2.5-7B.
-* Extended LangGraph orchestration by integrating agent state, web search, LLM inference, and report synthesis.
-* Built a modular workflow for retrieval, reasoning, synthesis, and automated research reporting.
-* Diagnosed configuration, tool-calling, context, dependency, and state-transition failures during deployment.
-* Designed the system to run locally using a self-hosted LLM workflow.
+* Created an interactive Power BI report covering four cities and seven properties.
+* Combined commercial and operational KPIs with week-over-week trends and property-level exploration.
+* Documented the report pages, metric definitions, data-model inventory, setup requirements, and current limitations.
 
-👉 **[View Project](https://github.com/SiddhantK543/deep-research-agent)**
+👉 **[View Project](https://github.com/SiddhantK543/Hospitality-Revenue-Insights)**
+
+---
+
+### 🤖 AI Project
+
+#### Deep Research Agent – Python, LangGraph, LangChain, Ollama, Chainlit
+
+A configured local deployment of the open-source Deep Research Agent by Tarun Chawla, used to explore multi-agent orchestration, web research, local-model inference, and report generation.
+
+* Deployed and configured the workflow with Ollama and Qwen2.5-7B.
+* Investigated model configuration, tool calling, dependencies, context limits, and state-transition failures.
+* Preserved upstream attribution and documented the scope of my deployment work.
+
+👉 **[View My Adaptation](https://github.com/SiddhantK543/deep-research-agent)** · **[Upstream Project](https://github.com/tarun7r/deep-research-agent)**
 
 ---
 
